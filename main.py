@@ -14,10 +14,10 @@ app.include_router(inst_router)
 
 
 
-@app.get('/hello')
-async def get():
-    return 'this is the Event App'
+#@app.get('/hello')
+#async def get():
+    #return 'this is the Event App'
 
 
-if __name__=='__main__':
-    uvicorn.run('main:app')
+#if __name__=='__main__':
+  #  uvicorn.run('main:app')
